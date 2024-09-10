@@ -59,11 +59,16 @@ DateTime? endDate,
 }) async {
 ``` 
 Regarding the UI, the chartPage should be converted to Stateful (should be anyway if we were in rod ready app, handling with navigation and other params/callbacks).
+Better naming pattern could have been used, sometimes I use bloodGlucose, and other just glucose
 
-#### TODO  
-| Func/Feat       | Obs               |
-|-----------------|-------------------|
-| Localization    | Content Cell      |
-| Uikit module    | Create basic reusable widgets |
-| Smaller widgets | Break down larger widgets into smaller, more granular components  |
+#### Improvement  
+| Func/Feat                | Obs                                                              |
+|--------------------------|------------------------------------------------------------------|
+| Localization             | Content Cell                                                     |
+| Uikit module             | Create basic reusable widgets                                    |
+| Smaller widgets          | Break down larger widgets into smaller, more granular components |
+| iOS/web UI compatibility |                                                                  |
+| Improve UI               |                                                                  |
+| Perfomance / caching     |                                                                  |
+
 
